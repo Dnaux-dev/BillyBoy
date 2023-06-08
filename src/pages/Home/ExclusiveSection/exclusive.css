@@ -1,0 +1,82 @@
+.Card_container{
+    margin-top: 150px;
+    height: 70vh;
+    max-width: 120vw;
+}
+
+.Card_container h2{
+    width: 337px;
+    height: 20px;
+    margin-left: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.Card_container .container{
+    height: 530px;
+    position: relative;
+    border-radius: 0.5rem;
+    margin-left: -10px;
+    width: 400px;
+  }
+
+  .container img{
+    height: 475px;
+    width:117%;
+    margin-bottom: 15px;
+  }
+
+  .container a{
+    text-decoration: none;
+    width: 112px;
+    height: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: #BFDC36;
+  }
+
+  .slick-slide div{
+    margin: 0.72rem;
+    margin-top: 40px;
+    
+    /* width: 100% !important; */
+  }
+
+  .slick-slider .slick-next,
+.slick-slider .slick-prev{
+  background: #38b000;
+  z-index: 99;
+  padding: 14px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: rgb(35 35 35 / 50%) 0px 0px 20px 5px;
+    top: -3%;
+}
+
+
+.slick-slider .slick-next:hover{
+    background: #d9f549;
+}
+.slick-slider .slick-prev:hover{
+    background: rgba(255, 255, 255, 0.384);
+}
+
+.slick-slider .slick-prev{
+  left: 89%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.slick-slider .slick-next{
+    right: 5px;
+    background: #BFDC36;
+}

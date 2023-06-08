@@ -1,0 +1,95 @@
+
+
+.logo{
+    width: 93px;
+    height: 93px;
+}
+
+
+nav .navbar-nav{
+    margin-left: 25%;
+
+}
+
+nav .item-link{
+    padding: 15px;
+}
+
+nav .item-link{
+    
+    margin-top: 10px;
+}
+
+[aria-current="page"]{
+    color: #BFDC36;
+    /* border-bottom: 5px solid #BFDC36; */
+  }
+
+  .nav-link,
+  .link,
+  .icon-link{
+    color: #fff;
+  }
+
+  .nav-link:hover,
+  .icon-link:hover{
+    color: #BFDC36;
+  }
+
+  
+
+.nav-item .item-link,
+.nav-item .nav-link,
+.nav-item .link{
+    width: 130px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    /* line-height: 20px; */
+}
+
+.bar{
+    padding: 0 15px;
+}
+
+/* .bar .icon-Navlink{
+    font-size: 30px;
+}
+
+.bar .fa-sharp{
+    font-size: 24px;
+} */
+
+.bar .fa-magnifying-glass,
+.bar .fa-circle-user{
+    font-size: 30px;
+}
+
+.btn{
+    width: 100px;
+}
+
+nav .sign-in{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #BFDC36;
+    font-weight: 600 ;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: -7px;
+}
+
+nav .social-icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    right:-5%;
+    padding: 20px;
+}
+
+.social-icons img{
+    margin: 8px 0;
+}

@@ -1,0 +1,31 @@
+.cont3{
+    margin-top: 100px;
+}
+
+.cont3 h2{
+    width: 450px;
+}
+
+
+.box2{
+    height: 300px;
+}
+
+.box2 img{
+    width: 100%;
+    height: 362px;
+    margin-bottom: 20px;
+}
+
+
+.box2 a{
+    text-decoration: none;
+    width: 112px;
+    height: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: #BFDC36;
+  }

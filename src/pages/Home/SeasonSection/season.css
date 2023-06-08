@@ -1,0 +1,87 @@
+.cont4 .group{
+    display: flex;
+    flex-direction: row;
+}
+
+.cont4 h2{
+    width:240px;
+}
+
+.cont4 .season_details{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.season_details h4{
+    color: #fff;
+    width: 349px;
+    height: 20px;
+    margin-left:16px; 
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.season_details a{
+    text-decoration: none;
+    color:  #BFDC36;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+.cont4 .season_img{
+    margin-top: 10px;
+}
+
+.season_img .base{
+    position: relative;
+}
+
+.season_img .inline{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.season_img .inline_2{
+    position: absolute;
+    z-index: 1;
+    right: 120px;
+    margin-top: 20px;
+}
+
+.season_img .inline_3{
+    position: absolute;
+    z-index: 1;
+    left: 750px;
+    margin: 200px 0px;
+}
+
+.inline .first{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+
+.first p{
+    color: #fff;
+    height: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+.first img{
+    width: 79px;
+    height: 79px;
+}

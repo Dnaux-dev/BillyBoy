@@ -1,0 +1,64 @@
+.box3 img,
+.box4 img{
+    height: 630px;
+    position: relative;
+}
+
+.box3 .contain, 
+.box4 .contain{
+    position: absolute;
+    z-index: 2;
+    width: 470px;
+    background: linear-gradient(359.3deg, #000000 -235.13%, rgba(0, 0, 0, 0.8) 61.96%);
+    backdrop-filter: blur(1px);
+    top: 70%;
+    margin-top: 8px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.cont6 .box4{
+    margin-left: 50px;
+}
+.contain p{
+    color: white;
+    font-size: 16px;
+    z-index: 60;
+}
+
+.contain h4,
+.contain h6{
+    color: #BFDC36;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contain .feature{
+    margin-left: 20px;
+  }
+
+  .feature p{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* margin-top: 40px; */
+  }
+
+
+  .contain span{
+    width: 5px;
+    height: 5px;
+    margin: 10px;
+    border-radius:50px ;
+    background: #BFDC36;
+  }
+
+

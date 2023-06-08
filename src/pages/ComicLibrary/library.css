@@ -1,0 +1,44 @@
+.main_container{
+    margin-left:25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-box{
+    padding: 30px;
+    position: relative;
+}
+
+.episode-box{
+    background: linear-gradient(116.5deg, rgba(3, 3, 3, 0.8) 13.94%, rgba(3, 3, 3, 0.8) 79.96%);
+backdrop-filter: blur(1px);
+border-radius: 0px 0px 8px 8px;
+position: absolute;
+width: 262px;
+height: 80px;
+margin-top: -90px;
+margin-left: 8px;
+padding: 5px 12px;
+}
+
+.episode-box h5{
+    color: #BFDC36;
+    width: 98px;
+    height: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.episode-box p{
+    width: 91px;
+height: 20px;
+color: #fff;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+
+
+

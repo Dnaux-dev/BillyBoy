@@ -1,0 +1,479 @@
+body{
+    height: 100vh;
+  }
+  
+  .btn-warning a{
+     text-decoration: none;
+     color: #000;
+     font-weight: 600;
+  }
+  
+  .btn-warning{
+    padding: 14px 20px;
+    border-radius: 20px;
+  }
+  
+  .info { 
+    margin-bottom: 20px;
+  }
+  
+  .info a {
+    color: #BFDC36;
+   
+  }
+  
+  @media (max-width:720px){
+    .bar{
+      display: none;
+    }
+  
+    .coming_d{
+      display: none;
+    }
+  
+  .coming .coming-soon{
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  font-style: normal;
+  margin-top: 128px;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .ellip{
+    justify-content: center;
+    color: white;
+  }
+  
+  section{
+    margin: 100px auto;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .coming .count{
+    margin-top: 80px;
+  }
+  
+  .count .rec{
+    width: 74px;
+  height: 72px;
+  left: 16px;
+  top: 230px;
+  
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid #BFDC36;
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  padding-left: 15px;
+  }
+  
+  .count .rec1{
+    width: 95px;
+    height: 72px;
+    left: 16px;
+    top: 230px;
+    
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid #BFDC36;
+    backdrop-filter: blur(6px);
+    border-radius: 15px;
+    padding-left: 22px;
+  }
+  
+  .count .rec2{
+    width: 88px;
+    height: 72px;
+    left: 16px;
+    top: 230px;
+    
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid #BFDC36;
+    backdrop-filter: blur(6px);
+    border-radius: 15px;
+    padding-left: 22px;
+  }
+  
+  .group {
+    width: 42px;
+  height: 56px;
+  left: 16px;
+  top: 8px;
+  
+  font-family: 'Ebrima';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .group span{
+    color: #808080;
+    font-size: 13px;
+    margin-top: -10px;
+  }
+  
+  .group #days,
+  .group #hours,
+  .group #minutes{
+    margin-top: 15px;
+  }
+  
+  .group .min{
+    font-size: 13px;
+  }
+  
+  .groupscreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .column{
+    color: #808080;
+    font-weight: 600;
+    margin-top: 17px;
+    font-size: 25px;
+  }
+  
+  .notify{
+  height: 16px;
+  margin-left: 37px;
+  margin-top: 30px;
+  
+  font-family: 'Ebrima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  
+  color: #808080;
+  
+  
+  }
+  
+  .coming input{
+    border: 1px solid #BFDC36;
+    width: 395px;
+  height: 50px;
+  margin-left: 0;
+  margin-top: 58px;
+  background: #000;
+  border-radius: 30px;
+  }
+  
+  ::placeholder{
+    width: 149.58px;
+  height: 14px;
+  left: 52.2px;
+  top: 416px;
+  
+  font-family: 'Ebrima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  
+  /* identical to box height, or 14px */
+  
+  color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .control{
+    padding-left: 30px;
+  }
+  
+  .subscribe{
+  width: 133px;
+  height: 50px;
+  margin-top: 28px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-right: 8px;
+  }
+  .subscribe a{
+    text-decoration: none;
+    color: #000;
+    width: 73px;
+  height: 20px;
+  font-family: 'Ebrima';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;;
+  }
+  
+  .btn-warning{
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin-left: 6rem;
+  }
+  
+  
+  .screen-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .questions{
+    width: 323px;
+  height: 16px;
+  margin-left: 26px;
+  margin-top: 59px;
+  font-family: 'Ebrima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #808080;
+  text-align: center;
+  }
+  
+  .info{
+    width: 174px;
+  height: 16px;
+  margin-left: 100px;
+  margin-top: 180% ;
+  
+  font-family: 'Ebrima';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  }
+  
+  .info a{
+    text-decoration: none;
+    color: #BFDC36;
+  }
+  
+  .links{
+    width: 131.52px;
+  height: 22px;
+  margin-left: 122px;
+  margin-top: 70px;
+  }
+  
+  .links a{
+    margin: 0.9rem;
+  }
+  
+  }
+  
+  /*  Desktop */
+  @media screen and (min-width: 1200px){
+  
+    body{
+      height: 50vh;
+    }
+  
+  
+    .coming{
+      display: none;
+    }
+  
+    .coming_d .coming-soon{
+      color: white;
+      font-weight: 700;
+      font-size: 102px;
+      line-height: 100%;
+      font-style: normal;
+      margin-top: 158px;
+      margin-left: 80px;
+    }
+  
+    .coming_d{
+      margin: 100px auto;
+      height: 100vh;
+    }
+  
+    .count .time{
+      width: 179px;
+      height: 94px;
+      margin-left: 275px;
+      top: 230px;
+      
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid #BFDC36;
+      backdrop-filter: blur(6px);
+      border-radius: 15px;
+      padding: 30px;
+    }
+    .count .time1{
+      width: 198px;
+      height: 92px;
+      top: 230px;
+      
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid #BFDC36;
+      backdrop-filter: blur(6px);
+      border-radius: 15px;
+      padding: 30px;
+    }
+    .group #days,
+  .group #hours,
+  .group #minutes{
+     
+    font-family: 'Ebrima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: #FFFFFF;
+  }
+
+  
+    .count .time2{
+      width: 220px;
+      height: 92px;
+      top: 230px;
+      
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid #BFDC36;
+      backdrop-filter: blur(6px);
+  
+      border-radius: 15px;
+      padding: 30px;
+    }
+  
+    .coming_d .count{
+      margin-top: 80px;
+      display: flex;
+      flex-direction: row;
+      margin-left: 70px;
+    }
+  
+    .count .group {
+     display: flex;
+     flex-direction: row;
+     font-size: 34px;
+    }
+  
+  
+    .count span{
+      margin: 12px 0 5px 5px;
+      font-size: 20px;
+      color: #808080;
+      font-family: 'Ebrima';
+     font-style: normal;
+      font-weight: 700;
+  
+      }
+  
+      .count .column{
+        color: #808080;
+        font-weight: 600;
+        margin:25px;
+        font-size: 35px;
+      }
+  
+  
+      .coming_d .notify{
+        width: 415px;
+      height: 18px;
+      margin-left: 480px;
+      margin-top: 30px;
+      
+      font-family: 'Ebrima';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      text-align: center;
+      
+      color: #808080;
+      
+      }
+  
+      .coming_d input{
+        border: 1px solid #BFDC36;
+        width: 326px;
+      height: 71px;
+      margin-left: 440px;
+      margin-top: 58px;
+      background: #000;
+      border-radius: 30px;
+      }
+  
+      .coming_d .subscribe{
+        width: 190px;
+      margin-top: -80px;
+      padding: 10px;
+      border-radius: 30px;
+      margin-left: 400px;
+      }
+
+      .coming_d button{
+        height: 71px;
+        width: 190px;
+        border-radius: 50px;
+        background: #BFDC36;
+      }
+
+      .coming_d button:hover{
+        background: #dbf84b;
+      }
+
+      .coming_d button, a{
+        font-family: 'Ebrima';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+      }
+  
+      .coming_d .questions{
+        width: 323px;
+      height: 16px;
+      margin-left: 525px;
+      margin-top: 59px;
+      font-family: 'Ebrima';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      color: #808080;
+      }
+  
+      .coming_d .info{
+        width: 174px;
+      height: 16px;
+      margin-left: 600px;
+      /* margin-top: 56%; */
+      margin-top: 30px;
+      text-align: center;
+      }
+
+      .coming_d .info, a{
+        font-family: 'Ebrima';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 100%;
+      }
+  
+  
+      
+  .coming_d .links{
+    width: 131.52px;
+  height: 22px;
+   margin-left: 600px;
+  }
+  
+  .links a{
+    margin: 0.9rem;
+  }
+  } 
+  
+
+  
+  
+  
+  
+  
