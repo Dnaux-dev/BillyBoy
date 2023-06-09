@@ -37,6 +37,10 @@ nav .item-link{
     color: #BFDC36;
   }
 
+  nav .module{
+    margin-right: -50px;
+  }
+
   
 
 .nav-item .item-link,
