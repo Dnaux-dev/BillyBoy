@@ -12,7 +12,7 @@ nav .navbar-nav{
 }
 
 nav .item-link{
-    padding: 15px;
+    padding: 11px;
 }
 
 nav .item-link{
@@ -45,12 +45,12 @@ nav .item-link{
     height: 20px;
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     /* line-height: 20px; */
 }
 
 .bar{
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 /* .bar .icon-Navlink{
@@ -62,8 +62,9 @@ nav .item-link{
 } */
 
 .bar .fa-magnifying-glass,
-.bar .fa-circle-user{
-    font-size: 30px;
+.bar .fa-circle-user,
+.bar .fa-bell{
+    font-size: 19px;
 }
 
 .btn{
