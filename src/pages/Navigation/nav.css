@@ -12,8 +12,7 @@ nav .navbar-nav{
 }
 
 nav .item-link{
-    padding: 2px;
-    margin:5px;
+    /* margin:5px; */
 }
 
 nav .item-link{
@@ -49,7 +48,6 @@ nav .item-link{
 .nav-item .item-link,
 .nav-item .nav-link,
 .nav-item .link{
-    width: 130px;
     height: 20px;
     font-style: normal;
     font-weight: 600;
