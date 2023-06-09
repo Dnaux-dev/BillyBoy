@@ -41,6 +41,9 @@ nav .item-link{
     margin-right: -50px;
   }
 
+  .nav-item{
+    padding: 20px;
+  }
   
 
 .nav-item .item-link,
