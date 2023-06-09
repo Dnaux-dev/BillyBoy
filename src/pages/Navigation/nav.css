@@ -66,9 +66,8 @@ nav .item-link{
 } */
 
 .bar .fa-magnifying-glass,
-.bar .fa-circle-user,
-.bar .fa-bell{
-    font-size: 19px;
+.bar .fa-circle-user{
+    font-size: 28px;
 }
 
 .btn{
