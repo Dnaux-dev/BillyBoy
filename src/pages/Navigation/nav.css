@@ -36,12 +36,10 @@ nav .item-link{
     color: #BFDC36;
   }
 
-  nav .module{
-    margin-right: -50px;
-  }
+
 
   .nav-item{
-    width: 148px;
+    width: 128px;
   }
   
 
@@ -56,7 +54,7 @@ nav .item-link{
 }
 
 .bar{
-    /* padding:  30px; */
+    padding: 0px 15px;
 }
 
 /* .bar .icon-Navlink{
