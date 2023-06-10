@@ -62,23 +62,23 @@ const Exclusive = () => {
     <div className='Card_container'>
        <h2>Billyboy Exclusive</h2>
        <Slider {...settings}>
-          <div className='container' style={{ width: 370 }}>
+          <div className='container' style={{ width: 375 }}>
             <img src={Wolverine} />
             <a href="#">Wolverine</a>
           </div>
-          <div className='container' style={{ width: 370 }}>
+          <div className='container' style={{ width: 375 }}>
             <img src={Daredevil} />
             <a href="#">Daredevil</a>
           </div>
-          <div className='container' style={{ width: 370 }}>
+          <div className='container' style={{ width: 375 }}>
             <img src={Batman} />
             <a href="#">Batman</a>
           </div>
-          <div className='container' style={{ width: 370 }}>
+          <div className='container' style={{ width: 375 }}>
             <img src={Oroni} />
             <a href="#">Oroni</a>
           </div>
-          <div className='container' style={{ width: 370 }}>
+          <div className='container' style={{ width: 375 }}>
             <img src={Spawn} />
             <a href="#">Spawn</a>
           </div>
