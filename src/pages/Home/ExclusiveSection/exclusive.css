@@ -19,12 +19,13 @@
     height: 490px;
     position: relative;
     border-radius: 0.5rem;
-    margin-left: -20px;
+    width: 100px;
+    /* margin-left: -20px; */
   }
 
   .container img{
     height: 450px;
-    width:200%;
+    width:100%;
     margin-bottom: 15px;
   }
 
