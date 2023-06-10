@@ -21,12 +21,14 @@ const Exclusive = () => {
   );
 
   const settings = {
+    className: "slider variable-width",
     centerMode: false,
     infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
+    variableWidth: true,
     speed: 500,
     prevArrow: <SlickArrowLeft />,
     nextArrow: <SlickArrowRight />,
@@ -60,23 +62,23 @@ const Exclusive = () => {
     <div className='Card_container'>
        <h2>Billyboy Exclusive</h2>
        <Slider {...settings}>
-          <div className='container'>
+          <div className='container' style={{ width: 270 }}>
             <img src={Wolverine} />
             <a href="#">Wolverine</a>
           </div>
-          <div className='container'>
+          <div className='container' style={{ width: 270 }}>
             <img src={Daredevil} />
             <a href="#">Daredevil</a>
           </div>
-          <div className='container'>
+          <div className='container' style={{ width: 270 }}>
             <img src={Batman} />
             <a href="#">Batman</a>
           </div>
-          <div className='container'>
+          <div className='container' style={{ width: 270 }}>
             <img src={Oroni} />
             <a href="#">Oroni</a>
           </div>
-          <div className='container'>
+          <div className='container' style={{ width: 270 }}>
             <img src={Spawn} />
             <a href="#">Spawn</a>
           </div>
